@@ -15,6 +15,9 @@ This plugin will allow for autocompleting Magento 2 CLI options and running the 
         magento-2
     )
     
+    # Reload ~/.zshrc with new plugin
+    source ~/.zshrc
+    
     # Declare your Magento 2 root directory
     m2:set_root <root_dir>
     
