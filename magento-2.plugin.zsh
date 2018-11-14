@@ -27,7 +27,7 @@ For more information see:
 
 # Main function that calls magento binary
 function m2() {
-	php $(m2:get_root)/bin/magento -vvv "$@"
+	php $(m2:get_root)/bin/magento "$@"
 }
 
 # Set the root of your Magento directory.
@@ -40,7 +40,7 @@ function m2:set_root() {
 # Retreive the m2 root set by m2:set_root
 function m2:get_root() {
 	[ ! -f ${MAGE_ROOT_FILE} ] && "Missing m2 root. Use m2:set_root"
-    [ -f ${MAGE_ROOT_FILE} ] && cat ${MAGE_ROOT_FILE};
+	[ -f ${MAGE_ROOT_FILE} ] && cat ${MAGE_ROOT_FILE};
 }
 
 # Sets / overwrites autocomplete options.
