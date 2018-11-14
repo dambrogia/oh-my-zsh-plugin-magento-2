@@ -9,7 +9,7 @@ Description:
     Magento 2 zsh autocomplete plugin
 
 Author:
-    Dominic Dambrogia <dominic.dambrogia@dollskill.com>
+    Dominic Dambrogia <domdambrogia+mage-2-plugin@gmail.com>
 
 Functions:
     m2                      Runs <mage_root>/bin/magento
