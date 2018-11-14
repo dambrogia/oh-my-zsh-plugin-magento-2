@@ -8,6 +8,13 @@ This plugin will allow for autocompleting Magento 2 CLI options and running the 
     cd ~/.oh-my-zsh/custom/plugins
     git clone git@github.com:dambrogia/oh-my-zsh-plugin-magento-2.git magento-2
     
+    # Add the magento-2 to your plugins within your ~/.zshrc
+    # This is based on editing the default ~/.zshrc - YMMV
+    plugins=(
+        git
+        magento-2
+    )
+    
     # Declare your Magento 2 root directory
     m2:set_root <root_dir>
     
