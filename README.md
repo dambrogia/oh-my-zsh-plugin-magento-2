@@ -21,6 +21,9 @@ This plugin will allow for autocompleting Magento 2 CLI options and running the 
     # Declare your Magento 2 root directory
     m2:set_root <root_dir>
     
+    # On Linux/ MacOS
+    m2:set_root ${PWD}
+    
     # Set your autocomplete suggestions - this will need to be updated when
     # Magento 2 CLI commands are added/removed
     m2:set_autocomplete
